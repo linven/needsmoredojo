@@ -15,8 +15,7 @@ import java.util.Map;
 @State(
         name = "NeedsMoreDojoConfiguration",
         storages = {
-                @Storage(id = "default", file = StoragePathMacros.PROJECT_FILE),
-                @Storage(id = "dir", file = StoragePathMacros.PROJECT_CONFIG_DIR + "/needsmoredojoconfig.xml", scheme = StorageScheme.DIRECTORY_BASED)
+                @Storage(file = StoragePathMacros.WORKSPACE_FILE)
         }
 )
 public class DojoSettings implements PersistentStateComponent<DojoSettings>

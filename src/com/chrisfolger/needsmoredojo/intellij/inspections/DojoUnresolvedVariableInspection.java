@@ -46,7 +46,7 @@ public class DojoUnresolvedVariableInspection extends JSUnresolvedVariableInspec
     @NotNull
     @Override
     public String getShortName() {
-        return "JSUnresolvedVariable";
+        return "DojoUnresolvedVariable";
     }
 
     @Override

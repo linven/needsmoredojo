@@ -79,7 +79,7 @@ public class ImportCreator
         }
         else
         {
-            String formatString = quoteCharacter + "%s" + quoteCharacter + ",";
+            String formatString = quoteCharacter + "%s" + quoteCharacter;
             JSUtil.addStatementBeforeElement(imports, imports.getExpressions()[0], String.format(formatString, module), "\n");
             if(parameters.getChildren().length > 0)
             {
